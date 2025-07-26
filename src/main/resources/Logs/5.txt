@@ -1,6 +1,0 @@
-Mon Jul 21 2025 Total: 1 |Absent |Total Present: 0 Percentage: 0.0%
-Tue Jul 22 2025 Total: 2 |Present |Total Present: 1 Percentage: 50%
-Wed Jul 23 2025 Total: 3 |Present |Total Present: 2 Percentage: 66.6667%
-Thu Jul 24 2025 Total: 4 |Present |Total Present: 3 Percentage: 75.0%
-Fri Jul 25 2025 Total: 5 |Present |Total Present: 4 Percentage: 80.0%
-Sat Jul 26 2025 Total: 6 |Absent |Total Present: 4 Percentage: 66.6667%
