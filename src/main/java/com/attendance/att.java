@@ -57,9 +57,9 @@ public class att {
             if (ch == 'P') {
                 present++;
                 percentage = Math.round((present * 1000000.0 / total)) / 10000.0;
-                res = (date() + " Total: " + total + " Present" + " |Total Present: " + present + " Percentage: " + percentage + "%\n");
+                res = (date() + " Total: " + total + " |Present" + " |Total Present: " + present + " Percentage: " + percentage + "%\n");
             } else if (ch == 'A') {
-                res = (date() + " Total: " + total + " Absent" + " |Total Present: " + present + " Percentage: " + percentage+ "%\n");
+                res = (date() + " Total: " + total + " |Absent" + " |Total Present: " + present + " Percentage: " + percentage+ "%\n");
             } else if (ch == 'C') {
                 res = (date() + " " + msg + "\n");
             } else if(ch == 'T') {
