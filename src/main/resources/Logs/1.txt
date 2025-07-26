@@ -66,3 +66,4 @@ Tue Jul 22 2025 Total: 43 |Present |Total Present: 42 Percentage: 97.6744%
 Wed Jul 23 2025 Total: 44 |Present |Total Present: 43 Percentage: 97.7273%
 Thu Jul 24 2025 Total: 45 |Present |Total Present: 44 Percentage: 97.7778%
 Fri Jul 25 2025 Total: 46 |Present |Total Present: 45 Percentage: 97.8261%
+Sat Jul 26 2025 Total: 47 Present |Total Present: 46 Percentage: 97.8723%

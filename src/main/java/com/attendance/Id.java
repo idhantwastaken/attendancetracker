@@ -8,8 +8,7 @@ public class Id {
     
     static File IdFile = new File("C:\\ivaef\\Java\\Attendance\\attendancetracker\\src\\main\\resources\\IDS\\Id.txt");
     static File Password = new File("C:\\ivaef\\Java\\Attendance\\attendancetracker\\src\\main\\resources\\IDS\\Pass.txt");
-
-    //Taking id and password from Id and Password files
+    
     private static String[] ids;
     static {
         if (IdFile.exists()) {
@@ -21,12 +20,12 @@ public class Id {
             }
         }
     }
-    private static String[] password;
+    private static String[] passwords;
     static {
         if (Password.exists()) {
             try (java.util.Scanner scanner = new java.util.Scanner(Password)) {
                 String line = scanner.nextLine();
-                password = line.replace("\"", "").split(" ");
+                passwords = line.replace("\"", "").split(" ");
             } catch (java.io.FileNotFoundException e) {
                 e.printStackTrace();
             }
@@ -61,32 +60,55 @@ public class Id {
                 signup.setBackground(java.awt.Color.decode("#1e90ffff"));
             }
         });
-
+        
         signup.addActionListener(e -> {
-            id = javax.swing.JOptionPane.showInputDialog(Get, "Enter your Id");
+            id = javax.swing.JOptionPane.showInputDialog(Get, "Username");
             if(Arrays.asList(ids).contains(id)) {
                 javax.swing.JOptionPane.showMessageDialog(Get, "Id already exists.");
                 return;
             }
-            String pass = javax.swing.JOptionPane.showInputDialog(Get, "Enter your Password");
-            if(id.isEmpty() || pass.isEmpty()) {
+            JTextField pass = new JTextField(5);
+            JTextField confirmpass = new JTextField(5);
+            
+            JPanel myPanel = new JPanel();
+            myPanel.add(new JLabel("Enter Password:"));
+            myPanel.add(pass);
+            myPanel.add(Box.createHorizontalStrut(15)); // a spacer
+            myPanel.add(new JLabel("Confirm Password:"));
+            myPanel.add(confirmpass);
+            
+            int result = JOptionPane.showConfirmDialog(null, myPanel, 
+            "Password", JOptionPane.OK_CANCEL_OPTION);
+            if (result == JOptionPane.OK_OPTION) {
+                if (!pass.getText().equals(confirmpass.getText())) {
+                    javax.swing.JOptionPane.showMessageDialog(Get, "Passwords do not match.");
+                    return;
+                }
+                id = id.trim();
+                pass.setText(pass.getText().trim());
+                confirmpass.setText(confirmpass.getText().trim());
+            } else {
+                return;
+            }
+            String password = pass.getText();
+            if(id.isEmpty() || password.isEmpty()) {
                 javax.swing.JOptionPane.showMessageDialog(Get, "Id or Password cannot be empty.");
                 return;
             }
-            if(pass.length() < 6) {
+            if(password.length() < 6) {
                 javax.swing.JOptionPane.showMessageDialog(Get, "Password must be at least 6 characters long.");
                 return;
             }
-            if(pass.length() > 32) {
+            if(password.length() > 32) {
                 javax.swing.JOptionPane.showMessageDialog(Get, "Password must not exceed 32 characters.");
                 return;
             }
             String[] newIds = Arrays.copyOf(ids, ids.length + 1);
-            String[] newPassword = Arrays.copyOf(password, password.length + 1);
+            String[] newPassword = Arrays.copyOf(passwords, passwords.length + 1);
             newIds[newIds.length - 1] = id;
-            newPassword[newPassword.length - 1] = Cryption.encrypt(pass);
+            newPassword[newPassword.length - 1] = Cryption.encrypt(password);
             ids = newIds;
-            password = newPassword;
+            passwords = newPassword;
             javax.swing.JOptionPane.showMessageDialog(Get, "Sign Up Successful!");
             try (java.io.PrintWriter idWriter = new java.io.PrintWriter(IdFile)) {
                 idWriter.println(String.join(" ", ids));
@@ -94,7 +116,7 @@ public class Id {
                 ex.printStackTrace();
             }
             try (java.io.PrintWriter passWriter = new java.io.PrintWriter(Password)) {
-                passWriter.println(String.join(" ", password));
+                passWriter.println(String.join(" ", passwords));
             } catch (java.io.FileNotFoundException ex) {
                 ex.printStackTrace();
             }
@@ -103,7 +125,7 @@ public class Id {
             gotId = true;
             name = id;
             file = "C:\\ivaef\\Java\\Attendance\\attendancetracker\\src\\main\\resources\\Logs\\" + (ids.length) + ".txt";
-
+            
             File logFile = new File(file);
             if (!logFile.exists()) {
                 try {
@@ -119,7 +141,7 @@ public class Id {
             }
         });
         Get.add(signup);
-
+        
         JButton enter = new JButton("Login");
         enter.setBorder(new RBorder(40));
         enter.setFocusable(false);
@@ -138,11 +160,11 @@ public class Id {
         });
         
         enter.addActionListener(e -> {
-            id = javax.swing.JOptionPane.showInputDialog(Get, "Enter your Id");
+            id = javax.swing.JOptionPane.showInputDialog(Get, "Enter Username");
             if(Arrays.asList(ids).contains(id)) {
                 String pass = javax.swing.JOptionPane.showInputDialog(Get, "Enter your Password");
                 index = Arrays.asList(ids).indexOf(id);
-                if(!password[index].equals(Cryption.encrypt(pass))) {
+                if(!passwords[index].equals(Cryption.encrypt(pass))) {
                     javax.swing.JOptionPane.showMessageDialog(Get, "Incorrect Password.");
                     return;
                 }
@@ -175,12 +197,12 @@ public class Id {
                 done.setBackground(java.awt.Color.red);
             }
         });
-
+        
         done.addActionListener(e -> {
             Get.dispose();
             System.exit(0);
         });
-
+        
         Get.add(enter); Get.add(done);
         Get.setVisible(true);
     }
