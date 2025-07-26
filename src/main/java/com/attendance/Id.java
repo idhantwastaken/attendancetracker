@@ -125,7 +125,7 @@ public class Id {
             gotId = true;
             name = id;
             index = Arrays.asList(ids).indexOf(id);
-            file = "C:\\ivaef\\Java\\Attendance\\attendancetracker\\src\\main\\resources\\Logs\\" + (index) + ".txt";
+            file = "src\\main\\resources\\Logs\\" + (index) + ".txt";
             
             File logFile = new File(file);
             if (!logFile.exists()) {
@@ -171,7 +171,7 @@ public class Id {
                 }
                 gotId = true;
                 name = id;
-                file = "C:\\ivaef\\Java\\Attendance\\attendancetracker\\src\\main\\resources\\Logs\\" + (index) + ".txt";
+                file = "src\\main\\resources\\Logs\\" + (index) + ".txt";
                 Get.setVisible(false);
                 Get.dispose();
                 Menu.menu();
