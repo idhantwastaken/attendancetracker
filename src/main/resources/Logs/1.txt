@@ -1,0 +1,69 @@
+----------------------- --------April------ ------------------------------
+Wed Apr 09 2025 Total: 1 |Present |Total Present: 1 Percentage: 100.0% 
+Thu Apr 10 2025 Day Off.
+Fri Apr 11 2025 Total: 2 |Present |Total Present: 2 Percentage: 100.0%
+Sat Apr 12 2025 Total: 3 |Present |Total Present: 3 Percentage: 100.0%
+Sun Apr 13 2025 Sunday.
+Mon Apr 14 2025 Day Off.
+Tue Apr 15 2025 Total: 4 |Present |Total Present: 4 Percentage: 100.0%
+Wed Apr 16 2025 Total: 5 |Present |Total Present: 5 Percentage: 100.0%
+Thu Apr 17 2025 Total: 6 |Present |Total Present: 6 Percentage: 100.0%
+Fri Apr 18 2025 Good Friday.
+Sat Apr 19 2025 Day Off.
+Sun Apr 20 2025 Sunday.
+Mon Apr 21 2025 Easter Monday.
+Tue Apr 22 2025 Total: 7 |Present |Total Present: 7 Percentage: 100.0%
+Wed Apr 23 2025 Total: 8 |Present |Total Present: 8 Percentage: 100.0%
+Thu Apr 24 2025 Total: 9 |Present |Total Present: 9 Percentage: 100.0%
+Fri Apr 25 2025 Total: 10 |Present |Total Present: 10 Percentage: 100.0%
+Sat Apr 26 2025 Total: 11 |Present |Total Present: 11 Percentage: 100.0%
+Sun Apr 27 2025 Sunday.
+Mon Apr 28 2025 Total: 12 |Present |Total Present: 12 Percentage: 100.0%
+Tue Apr 29 2025 Total: 13 |Present |Total Present: 13 Percentage: 100.0%
+Wed Apr 30 2025 Total: 14 |Present |Total Present: 14 Percentage: 100.0%
+--------------------------------May----------------------------------------
+Thu May 01 2025 Total: 15 |Present |Total Present: 15 Percentage: 100.0%
+Fri May 02 2025 Total: 16 |Present |Total Present: 16 Percentage: 100.0%
+Sat May 03 2025 Total: 17 |Absent |Total Present: 16 Percentage: 94.1176%
+Sun May 04 2025 Sunday.
+Mon May 05 2025 Total: 18 |Present |Total Present: 17 Percentage: 94.4444%
+Tue May 06 2025 Total: 19 |Present |Total Present: 18 Percentage: 94.7368%
+Wed May 07 2025 Total: 20 |Present |Total Present: 19 Percentage: 95.0%
+Thu May 08 2025 Total: 21 |Present |Total Present: 20 Percentage: 95.2381%
+Fri May 09 2025 Total: 22 |Present |Total Present: 21 Percentage: 95.4545%
+Sat May 10 2025 Total: 23 |Present |Total Present: 22 Percentage: 95.6522%
+Sun May 11 2025 Sunday.
+Mon May 12 2025 Buddha Purnima.
+Tue May 13 2025 Total: 24 |Present |Total Present: 23 Percentage: 95.8333%
+Wed May 14 2025 Total: 25 |Present |Total Present: 24 Percentage: 96.0%
+Thu May 15 2025 Total: 26 |Present |Total Present: 25 Percentage: 96.1538%
+Fri May 16 2025 - Sat May 31 2025 Summer Vacation.
+--------------------------------June---------------------------------------
+Sun Jun 01 2025 - Mon Jun 30 2025 Summer Vacation.
+--------------------------------July---------------------------------------
+Tue Jul 01 2025 Summer Vacation.
+Wed Jul 02 2025 Total: 27 |Present |Total Present: 26 Percentage: 96.2963%
+Thu Jul 03 2025 Total: 28 |Present |Total Present: 27 Percentage: 96.4286%
+Fri Jul 04 2025 Total: 29 |Present |Total Present: 28 Percentage: 96.5517%
+Sat Jul 05 2025 Total: 30 |Present |Total Present: 29 Percentage: 96.6667%
+Sun Jul 06 2025 Sunday.
+Mon Jul 07 2025 Total: 31 |Present |Total Present: 30 Percentage: 96.7742%
+Tue Jul 08 2025 Total: 32 |Present |Total Present: 31 Percentage: 96.8750%
+Wed Jul 09 2025 Total: 33 |Present |Total Present: 32 Percentage: 96.9697%
+Thu Jul 10 2025 Total: 34 |Present |Total Present: 33 Percentage: 97.0588%
+Fri Jul 11 2025 Total: 35 |Present |Total Present: 34 Percentage: 97.1429%
+Sat Jul 12 2025 Total: 36 |Present |Total Present: 35 Percentage: 97.2222%
+Sun Jul 13 2025 Sunday.
+Mon Jul 14 2025 Total: 37 |Present |Total Present: 36 Percentage: 97.2973%
+Tue Jul 15 2025 Total: 38 |Present |Total Present: 37 Percentage: 97.3684%
+Wed Jul 16 2025 Total: 39 |Present |Total Present: 38 Percentage: 97.4359%
+Thu Jul 17 2025 Rain.
+Fri Jul 18 2025 Total: 40 |Present |Total Present: 39 Percentage: 97.5%
+Sat Jul 19 2025 Total: 41 |Present |Total Present: 40 Percentage: 97.561%
+Sun Jul 20 2025 Sunday.
+Mon Jul 21 2025 Total: 42 |Present |Total Present: 41 Percentage: 97.619%
+Tue Jul 22 2025 Total: 43 |Present |Total Present: 42 Percentage: 97.6744%
+Wed Jul 23 2025 Total: 44 |Present |Total Present: 43 Percentage: 97.7273%
+Thu Jul 24 2025 Total: 45 |Present |Total Present: 44 Percentage: 97.7778%
+Fri Jul 25 2025 Total: 46 |Present |Total Present: 45 Percentage: 97.8261%
+Sat Jul 26 2025 Total: 47 Present |Total Present: 46 Percentage: 97.8723%
