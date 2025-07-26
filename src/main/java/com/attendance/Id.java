@@ -6,8 +6,8 @@ import java.io.FileWriter;
 import javax.swing.*;
 public class Id {
     
-    static File IdFile = new File("C:\\ivaef\\Java\\Attendance\\attendancetracker\\src\\main\\resources\\IDS\\Id.txt");
-    static File Password = new File("C:\\ivaef\\Java\\Attendance\\attendancetracker\\src\\main\\resources\\IDS\\Pass.txt");
+    static File IdFile = new File("src\\main\\resources\\IDS\\Id.txt");
+    static File Password = new File("src\\main\\resources\\IDS\\Pass.txt");
     
     private static String[] ids;
     static {
